@@ -1,0 +1,49 @@
+.botoes {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url(../../../img/barraNavegacao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.botoes a {
+    text-decoration: none;
+}
+
+.botoes__botao {
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 1px 2px 6px #00000040;
+    color: #000;
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    height: 125px;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    width: 125px;
+}
+
+.botoes__botao:hover {
+    background-color: #007C41;
+    color: #fff;
+}
+
+.botoes__botao--um {
+    position: relative;
+    right: 8px ;
+}
+
+.botoes__botao--dois {
+    height: 105px;
+    width: 105px;
+}
+
+.botoes__botao--tres {
+    position: relative;
+    left: 8px;
+}
