@@ -1,0 +1,178 @@
+.check__um--produtoDois {
+    display: none;
+}
+
+.check__dois--produtoDois {
+    display: none;
+}
+
+.popUp__botoes--produtoDois {
+    background-image: url(../../../img/fundoBotaoProdutoDois.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    grid-template-columns: repeat(2, auto);
+
+    display: none;
+}
+
+.popUp__infos--umProdutoDois {
+    display: none;
+}
+
+.popUp__infos--doisProdutoDois {
+    display: none;
+}
+
+.popUp_botao--umProdutoDois {
+    position: relative;
+    right: 80px;
+}
+
+.popUp_botao--doisProdutoDois {
+    position: relative;
+    left: 80px;
+}
+
+.popUp__saibaMais--bloco {
+    align-items: center;
+    display: none;
+    grid-template-columns: auto auto;
+
+    grid-column: span 4;
+
+    margin: 1.5rem;
+}
+
+.popUp__saibaMais--blocoImagens {
+    display: grid;
+    grid-column: span 1;
+    grid-template-rows: repeat(3, auto);
+
+    gap: 6px;
+}
+
+.popUp__saibaMais--blocoImagem {
+    background-image: url(../../../img/barraVerdeLateral.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 1.5rem 2rem 1.5rem 1.5rem;
+}
+
+.popUp__saibaMais--blocoInfos {
+    font-size: 22px;
+    text-align: justify;
+
+    margin: 0px auto;
+    width: 90%;
+}
+
+.blocoInfos--imagemUm {
+    display: inline-block;
+}
+
+.blocoInfos--imagemDois {
+    display: none;
+}
+
+.blocoInfos--imagemTres {
+    display: none;
+}
+
+.popUp__tabelaRegressiva--bloco {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin:1.5rem ;
+}
+
+.popUp__tabelaRegressiva--imagemBloco {
+    margin: 1rem;
+
+    width: 50%;
+}
+
+.popUp__tabelaRegressiva--info {
+    font-size: 22px;
+    text-align: justify;
+
+    margin: 0px 1rem;
+    width: 90%;
+}
+
+.popUp__saibaMaisTabelaRegressiva {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    padding-bottom: 1.75rem;
+}
+
+.popUp__saibaMais {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.popUp__saibaMais--imagemUm {
+    display: inline-block;
+
+    cursor: pointer;
+    height: 190px;
+    width: 190px;
+}
+
+.popUp__saibaMais--imagemDois {
+    display: none;
+    
+    cursor: pointer;
+    height: 190px;
+    width: 190px;
+}
+
+.popUp__saibaMais--titulo {
+    color: #086735;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.popUp__tabelaRegressiva {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.popUp__tabelaRegressiva--imagemUm {
+    display: none;
+
+    cursor: pointer;
+    height: 190px;
+    width: 190px;
+}
+
+.popUp__tabelaRegressiva--imagemDois {
+    display: inline-block;
+
+    cursor: pointer;
+    height: 190px;
+    width: 190px;
+}
+
+.popUp__tabelaRegressiva--titulo {
+    color: #086735;
+    font-size: 32px;
+    font-weight: bold;
+}

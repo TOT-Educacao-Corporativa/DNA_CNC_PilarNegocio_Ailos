@@ -5,20 +5,11 @@
     border-radius: 4.75rem;
     box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.5);
     display: grid;
+    /* Grid */
     grid-template-columns: repeat(4, 1fr);
 
     height: 600px;
-    width: 1080px;
-}
-
-.produtoUm {
-    display: grid;
-
-    left: 425px;
-    position: absolute;
-    top: 250px;
-
-    z-index: 2;
+    width: 1100px;
 }
 
 .popUp__fechar {
@@ -35,6 +26,8 @@
 
     position: relative;
     left: 1025px;
+
+    cursor: pointer;
 }
 
 .check {
@@ -49,6 +42,7 @@
 
 .check__um {
     display: none;
+    /* Blcok */
     position: relative;
     right: 112px;
     top: 300px;
@@ -56,6 +50,7 @@
 
 .check__dois {
     display: none;
+    /* Block */
     position: relative;
     right: 32px;
     top: 300px;
@@ -63,6 +58,7 @@
 
 .check__tres {
     display: none;
+    /* Block */
     position: relative;
     left: 45px;
     top: 300px;
@@ -72,8 +68,8 @@
     color: #086735;
     font-size: 36px;
     font-weight: 600;
-    grid-column: span 4;
-    padding: 1rem;
+    grid-column: span 2;
+    padding-top: 1.75rem;
     text-align: center;
 }
 
@@ -88,20 +84,9 @@
     width: 1000px;
 }
 
-.popUp__infos--um {
-    display: none;
-}
-
-.popUp__infos--dois {
-    display: none;
-}
-
-.popUp__infos--tres {
-    display: none;
-}
-
 .popUp__botoes {
-    display: none;
+    display: grid;
+    /* Grid */
     grid-column: span 4;
     grid-template-columns: repeat(3, auto);
     justify-content: space-around;
@@ -113,61 +98,7 @@
     border-radius: 50%;
     border: solid 8px #fff;
     color: #086735;
+    cursor: pointer;
     height: 70px;
     width: 70px;
-}
-
-.popUp__interacoes {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    grid-column: span 4;
-
-    margin: 2rem;
-}
-
-.popUp__blocoInteracao {
-    background-image: url(../../../img/centroPopUpInteracao.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    height: 250px;
-    width: 250px;
-
-}
-
-.popUp__interacoes--infos01 {
-    display: block;
-    width: 50%;
-}
-
-.popUp__interacoes--infos02 {
-    display: none;
-    width: 50%;
-}
-
-.popUp__interacoes--infos03 {
-    display: none;
-    width: 50%;
-}
-
-.popUp__interacoes--infos04 {
-    display: none;
-    width: 50%;
-}
-
-.popUp__interacoes--infos05 {
-    display: none;
-    width: 50%;
-}
-
-.popUp__interacoes--infos06 {
-    display: none;
-    width: 50%;
-}
-
-.popUp__interacoes--info {
-    font-size: 25px;
 }

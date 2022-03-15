@@ -1,0 +1,81 @@
+.popUp__infos--um {
+    display: block;
+    /* Block */
+}
+
+.popUp__infos--dois {
+    display: none;
+    /* Block */
+}
+
+.popUp__infos--tres {
+    display: none;
+    /* Block */
+}
+
+.popUp__interacoes {
+    align-items: center;
+    display: none;
+    /* Grid */
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin: 2rem;
+
+    bottom: 25px;
+    position: relative;
+    left: 50px;
+}
+
+.popUp__blocoInteracao {
+    background-image: url(../../../img/centroPopUpInteracao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 250px;
+    width: 250px;
+
+    z-index: 1;
+}
+
+.popUp__interacoes--infos01 {
+    display: block;
+    /* Block */
+    width: 50%;
+}
+
+.popUp__interacoes--infos02 {
+    display: none;
+    /* Block */
+    width: 50%;
+}
+
+.popUp__interacoes--infos03 {
+    display: none;
+    /* Block */
+    width: 50%;
+}
+
+.popUp__interacoes--infos04 {
+    display: none;
+    /* Block */
+    width: 50%;
+}
+
+.popUp__interacoes--infos05 {
+    display: none;
+    /* Block */
+    width: 50%;
+}
+
+.popUp__interacoes--infos06 {
+    display: none;
+    /* Block */
+    width: 50%;
+}
+
+.popUp__interacoes--info {
+    font-size: 25px;
+}

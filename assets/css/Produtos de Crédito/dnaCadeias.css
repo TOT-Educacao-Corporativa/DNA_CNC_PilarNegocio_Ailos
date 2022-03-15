@@ -3,7 +3,7 @@
 }
 
 .dna__cadeias--um {
-    background-image: url(../../../img/01.png);
+    background-image: url(../../../img/1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -12,6 +12,9 @@
     width: 150px;
 
     transition: all 0.085s ease-in-out;
+
+    position: relative;
+    left: 15px;
 }
 
 .dna__cadeias--um:hover {
@@ -19,7 +22,7 @@
 }
 
 .dna__cadeias--dois {
-    background-image: url(../../../img/02.png);
+    background-image: url(../../../img/2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -28,6 +31,9 @@
     width: 230px;
 
     transition: all 0.085s ease-in-out;
+
+    position: relative;
+    left: 15px;
 }
 
 .dna__cadeias--dois:hover {
@@ -35,7 +41,7 @@
 }
 
 .dna__cadeias--tres {
-    background-image: url(../../../img/03.png);
+    background-image: url(../../../img/3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -44,6 +50,9 @@
     width: 220px;
 
     transition: all 0.085s ease-in-out;
+
+    position: relative;
+    left: 2px;
 }
 
 .dna__cadeias--tres:hover {
@@ -51,7 +60,7 @@
 }
 
 .dna__cadeias--quatro {
-    background-image: url(../../../img/04.png);
+    background-image: url(../../../img/4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -60,6 +69,9 @@
     width: 130px;
 
     transition: all 0.085s ease-in-out;
+
+    position: relative;
+    right: 5px;
 }
 
 .dna__cadeias--quatro:hover {
@@ -67,7 +79,7 @@
 }
 
 .dna__cadeias--cinco {
-    background-image: url(../../../img/05.png);
+    background-image: url(../../../img/5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,6 +88,8 @@
     width: 130px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 3px;
 }
 
 .dna__cadeias--cinco:hover {
@@ -83,7 +97,7 @@
 }
 
 .dna__cadeias--seis {
-    background-image: url(../../../img/06.png);
+    background-image: url(../../../img/6.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -92,6 +106,8 @@
     width: 220px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 3px;
 }
 
 .dna__cadeias--seis:hover {
@@ -99,7 +115,7 @@
 }
 
 .dna__cadeias--sete {
-    background-image: url(../../../img/07.png);
+    background-image: url(../../../img/7.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -108,6 +124,8 @@
     width: 220px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 9px;
 }
 
 .dna__cadeias--sete:hover {
@@ -115,7 +133,7 @@
 }
 
 .dna__cadeias--oito {
-    background-image: url(../../../img/08.png);
+    background-image: url(../../../img/8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -124,6 +142,9 @@
     width: 150px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 19px;
+    bottom: 5px;
 }
 
 .dna__cadeias--oito:hover {
@@ -131,7 +152,7 @@
 }
 
 .dna__cadeias--nove {
-    background-image: url(../../../img/09.png);
+    background-image: url(../../../img/9.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -140,6 +161,9 @@
     width: 150px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 15px;
+    top: 5px;
 }
 
 .dna__cadeias--nove:hover {
@@ -156,6 +180,8 @@
     width: 230px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 17px;
 }
 
 .dna__cadeias--dez:hover {
@@ -172,6 +198,8 @@
     width: 220px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 2px;
 }
 
 .dna__cadeias--onze:hover {
@@ -188,6 +216,8 @@
     width: 130px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 5px;
 }
 
 .dna__cadeias--doze:hover {
@@ -204,6 +234,8 @@
     width: 130px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 4px;
 }
 
 .dna__cadeias--treze:hover {
@@ -220,6 +252,8 @@
     width: 220px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 4px;
 }
 
 .dna__cadeias--quatorze:hover {
@@ -236,6 +270,8 @@
     width: 220px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 10px;
 }
 
 .dna__cadeias--quinze:hover {
@@ -252,6 +288,8 @@
     width: 150px;
 
     transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 25px;
 }
 
 .dna__cadeias--dezesseis:hover {
