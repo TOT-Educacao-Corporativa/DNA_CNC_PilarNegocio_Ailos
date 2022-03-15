@@ -2,17 +2,15 @@
 
 body {
     background-color: #f5f5f5;
-    background-image: url(../../img/backgroundGeral.png);
+    background-image: url(../../../img/backgroundProdutosCaptação.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 
-    height: 100vh;
+    height: 2700px;
     width: 100vh;
-
-    overflow-x: hidden;
 }
 
 h1 {

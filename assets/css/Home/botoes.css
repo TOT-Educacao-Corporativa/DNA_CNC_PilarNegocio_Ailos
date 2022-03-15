@@ -41,9 +41,11 @@
 .botoes__botao--dois {
     height: 105px;
     width: 105px;
+    opacity: 0.5;
 }
 
 .botoes__botao--tres {
     position: relative;
     left: 8px;
+    opacity: 0.5;
 }

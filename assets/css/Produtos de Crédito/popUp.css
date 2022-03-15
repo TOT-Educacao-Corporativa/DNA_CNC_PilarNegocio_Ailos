@@ -1,4 +1,173 @@
-.popUp{
+.popUp {
+
+    background: rgb(215, 216, 216);
+    background: linear-gradient(0deg, rgba(215, 216, 216, 1) 0%, rgba(245, 244, 245, 1) 83%);
+    border-radius: 4.75rem;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.5);
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+    height: 600px;
+    width: 1080px;
+}
+
+.produtoUm {
+    display: grid;
+
+    left: 425px;
+    position: absolute;
+    top: 250px;
+
+    z-index: 2;
+}
+
+.popUp__fechar {
+    background-color: #ce2219;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgb(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    height: 70px;
+    text-align: center;
+    width: 70px;
+
+    position: relative;
+    left: 1025px;
+}
+
+.check {
+    background-image: url(../../../img/check.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 110px;
+    width: 130px;
+}
+
+.check__um {
+    display: none;
+    position: relative;
+    right: 112px;
+    top: 300px;
+}
+
+.check__dois {
+    display: none;
+    position: relative;
+    right: 32px;
+    top: 300px;
+}
+
+.check__tres {
+    display: none;
+    position: relative;
+    left: 45px;
+    top: 300px;
+}
+
+.popUp__titulo {
+    color: #086735;
+    font-size: 36px;
+    font-weight: 600;
+    grid-column: span 4;
+    padding: 1rem;
+    text-align: center;
+}
+
+.popUp__infos {
+
+    font-size: 28px;
+    grid-column: span 4;
+    text-align: center;
+    margin: 2.75rem;
+
+    height: 90px;
+    width: 1000px;
+}
+
+.popUp__infos--um {
+    display: none;
+}
+
+.popUp__infos--dois {
+    display: none;
+}
+
+.popUp__infos--tres {
+    display: none;
+}
+
+.popUp__botoes {
+    display: none;
+    grid-column: span 4;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.popUp__botao {
+    background-color: #086735;
+    border-radius: 50%;
+    border: solid 8px #fff;
+    color: #086735;
+    height: 70px;
+    width: 70px;
+}
+
+.popUp__interacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin: 2rem;
+}
+
+.popUp__blocoInteracao {
+    background-image: url(../../../img/centroPopUpInteracao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 250px;
+    width: 250px;
+
+}
+
+.popUp__interacoes--infos01 {
+    display: block;
+    width: 50%;
+}
+
+.popUp__interacoes--infos02 {
+    display: none;
+    width: 50%;
+}
+
+.popUp__interacoes--infos03 {
+    display: none;
+    width: 50%;
+}
+
+.popUp__interacoes--infos04 {
+    display: none;
+    width: 50%;
+}
+
+.popUp__interacoes--infos05 {
+    display: none;
+    width: 50%;
+}
+
+.popUp__interacoes--infos06 {
+    display: none;
+    width: 50%;
+}
+
+.popUp__interacoes--info {
+    font-size: 25px;
 }

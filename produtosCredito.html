@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DNA | Produtos de Crédito</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/Produtos de Crédito/normalize.css">
     <link rel="stylesheet" href="assets/css/Produtos de Crédito/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/Produtos de Crédito/popUp.css">
+    <link rel="stylesheet" href="assets/css/Produtos de Crédito/dna.css">
+    <link rel="stylesheet" href="assets/css/Produtos de Crédito/dnaCadeias.css">
+    <link rel="stylesheet" href="assets/css/Produtos de Crédito/popUp-blocoInteracao.css">
 </head>
 
 <body>
@@ -28,34 +32,121 @@
         </nav>
         <h2 class="interaja">Produtos de Captação</h2>
     </header>
-    <main class="dna">
+    <main class="secaoMain">
+
+        <!-- Estrutura DNA -->
+        <div class="dna__interaja">
+            <p class="dna__interaja--escrita">Interaja com o DNA e descubra<br>os produtos de Captação.</p>
+            <img src="img/setaInteraja.png" alt="Seta indicando interação" class="dna__interaja--seta">
+        </div>
+        <div class="dna">
+            <div class="dna__imagens">
+                <img src="img/dna_Produto01.png" alt="" class="dna__imagem--tracos">
+                <img src="img/pedestal.png" alt="" class="dna__imagem--base">
+            </div>
+        </div>
+        <!-- Estrutura cadeias DNA (Botoes) -->
+        <div class="dna__cadeia">
+            <ul class="dna__cadeias dna__cadeias--secaoUm">
+                <li class="dna__cadeias--itens dna__cadeias--um"></li>
+                <li class="dna__cadeias--itens dna__cadeias--dois"></li>
+                <li class="dna__cadeias--itens dna__cadeias--tres"></li>
+                <li class="dna__cadeias--itens dna__cadeias--quatro"></li>
+            </ul>
+            <ul class="dna__cadeias dna__cadeias--secaoDois">
+                <li class="dna__cadeias--itens dna__cadeias--cinco"></li>
+                <li class="dna__cadeias--itens dna__cadeias--seis"></li>
+                <li class="dna__cadeias--itens dna__cadeias--sete"></li>
+                <li class="dna__cadeias--itens dna__cadeias--oito"></li>
+            </ul>
+            <ul class="dna__cadeias dna__cadeias--secaoTres">
+                <li class="dna__cadeias--itens dna__cadeias--nove"></li>
+                <li class="dna__cadeias--itens dna__cadeias--dez"></li>
+                <li class="dna__cadeias--itens dna__cadeias--onze"></li>
+                <li class="dna__cadeias--itens dna__cadeias--doze"></li>
+            </ul>
+            <ul class="dna__cadeias dna__cadeias--secaoQuatro">
+                <li class="dna__cadeias--itens dna__cadeias--treze"></li>
+                <li class="dna__cadeias--itens dna__cadeias--quatorze"></li>
+                <li class="dna__cadeias--itens dna__cadeias--quinze"></li>
+                <li class="dna__cadeias--itens dna__cadeias--dezesseis"></li>
+            </ul>
+        </div>
+        <!-- Produto Um -->
         <article class="popUp produtoUm">
-            <img src="" alt="">
+            
+            <button class="popUp__fechar">X</button>
+            <div class="check check__um"></div>
+            <div class="check check__dois"></div>
+            <div class="check check__tres"></div>
             <h2 class="popUp__titulo">Cotas de Capital</h2>
-            <div class="popUp__infos">
+            <div class="popUp__infos popUp__infos--um">
                 <p>É uma opção de investimento a longo prazo e o cooperado determina o valor que será debitado
                     mensalmente da sua conta corrente e investido no capital social. </p>
             </div>
-            <div class="popUp__infos">
+            <div class="popUp__infos popUp__infos--dois">
                 <p>Constituem a participação no Capital Social da Cooperativa, sendo importante para a sustentabilidade
                     da Cooperativa, sendo fonte de recursos, geram estabilidade, solidez e ainda possibilitam oferecer
                     empréstimos a juros mais baixos. </p>
             </div>
-            <div class="popUp__infos">
+            <div class="popUp__infos popUp__infos--tres">
                 <p>Anualmente as cotas podem ser remuneradas através do pagamento de Juros ao Capital, e de acordo com
                     os resultados da Cooperativa.</p>
             </div>
-            <button>Botão 01</button>
-            <button>Botão 02</button>
-            <button>Botão 03</button>
-            <button>Botão 04</button>
-
-            <div class="flashCard">
-                <article class="flashCard__card">
-
-                </article>
+            <div class="popUp__botoes">
+                <button class="popUp__botao popUp_botao--um"></button>
+                <button class="popUp__botao popUp_botao--dois"></button>
+                <button class="popUp__botao popUp_botao--tres"></button>
             </div>
+
+            <article class="popUp__interacoes">
+                <div class="popUp__blocoInteracao">
+                    <ul class="popUp__blocoInteracaoBotoes">
+                        <li class="popUp__blocoInteracaoBotao popUp__blocoInteracaoBotao--01">1</li>
+                        <li class="popUp__blocoInteracaoConexao popUp__conexao01"></li>
+                        <li class="popUp__blocoInteracaoBotao popUp__blocoInteracaoBotao--02">2</li>
+                        <li class="popUp__blocoInteracaoConexao popUp__conexao02"></li>
+                        <li class="popUp__blocoInteracaoBotao popUp__blocoInteracaoBotao--03">3</li>
+                        <li class="popUp__blocoInteracaoConexao popUp__conexao03"></li>
+                        <li class="popUp__blocoInteracaoBotao popUp__blocoInteracaoBotao--04">4</li>
+                        <li class="popUp__blocoInteracaoConexao popUp__conexao04"></li>
+                        <li class="popUp__blocoInteracaoBotao popUp__blocoInteracaoBotao--05">5</li>
+                        <li class="popUp__blocoInteracaoConexao popUp__conexao05"></li>
+                        <li class="popUp__blocoInteracaoBotao popUp__blocoInteracaoBotao--06">6</li>
+                        <li class="popUp__blocoInteracaoConexao popUp__conexao06"></li>
+                    </ul>
+                </div>
+                <div class="popUp__interacoes--infos01">
+                    <p class="popUp__interacoes--info">O plano de cotas não é uma tarifa, sendo diferente das taxas de
+                        manutenção cobradas pelas instituições financeiras.</p>
+                </div>
+                <div class="popUp__interacoes--infos02">
+                    <p class="popUp__interacoes--info">A remuneração anual dos juros sobre o capital é condicionada ao
+                        resultado da cooperativa e limitada à Taxa Selic, conforme prevê o art. 7º da Lei Complementar
+                        nº 130/09.</p>
+                </div>
+                <div class="popUp__interacoes--infos03">
+                    <p class="popUp__interacoes--info">Sobre a remuneração do saldo de cotas, incide a tributação de
+                        Imposto de Renda retido na fonte, conforme tabela progressiva para Pessoa Física. </p>
+                </div>
+                <div class="popUp__interacoes--infos04">
+                    <p class="popUp__interacoes--info">Para Pessoa Jurídica, o Imposto de Renda deve ser recolhido na
+                        declaração de ajuste anual feita pela empresa.</p>
+                </div>
+                <div class="popUp__interacoes--infos05">
+                    <p class="popUp__interacoes--info">O resgate do capital ou readmissão, podem ser solicitados pelo
+                        cooperado, de acordo com o Estatuto, Regimento Interno e a Instrução Normativa da cooperativa.
+                        As diretrizes para casos de falecimento também estão descritas nestes materiais.</p>
+                </div>
+                <div class="popUp__interacoes--infos06">
+                    <p class="popUp__interacoes--info">Além do plano mensal o cooperado pode optar por aportes
+                        esporádicos ou contratar a operação Procapecred (Programa de Capitalização de Cooperativas de
+                        Crédito).</p>
+                </div>
+            </article>
+
         </article>
+
     </main>
 </body>
 
