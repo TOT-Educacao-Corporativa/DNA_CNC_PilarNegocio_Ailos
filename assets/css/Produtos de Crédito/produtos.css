@@ -4,18 +4,38 @@
 
     left: 425px;
     position: absolute;
-    top: 250px;
+    top: 450px;
 
     z-index: 2;
 }
 
 .produtoDois {
-    display: grid;
+    display: none;
     /* Grid */
 
     left: 425px;
     position: absolute;
     top: 550px;
+
+    z-index: 2;
+}
+
+.produtoTres {
+    display: none;
+    /* Grid */
+    left: 425px;
+    position: relative;
+    top: 650px;
+
+    z-index: 2;
+}
+
+.produtoQuatro {
+    display: grid;
+
+    left: 425px;
+    position: relative;
+    top: 750px;
 
     z-index: 2;
 }

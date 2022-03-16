@@ -1,0 +1,69 @@
+.check__um--produtoTres {
+    display: none;
+
+    left: 172px;
+    position: absolute;
+    top: 430px;
+
+    z-index: 1;
+}
+
+.check__dois--produtoTres {
+    display: none;
+
+    left: 865px;
+    position: absolute;
+    top: 430px;
+
+    z-index: 1;
+}
+
+.popUp__infos--inicial {
+    align-items: center;
+    display: flex; /* Flex */
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin: 1.75rem;
+}
+
+.popUp__infos--umProdutoTres {
+    display: inline-block; /* inline-block */
+
+    font-size: 28px;
+    text-align: justify;
+
+    margin-right: 2rem;
+}
+
+.popUp__imagem--umProdutoTres {
+    display: block;
+}
+
+.popUp__infos--botaoUmProdutoTres {
+    display: none; /* inline-block */
+}
+
+.popUp__infos--botaoDoisProdutoTres {
+    display: none;
+}
+
+.popUp__botoes--produtoTres {
+    background-image: url(../../../img/fundoBotaoProdutoDois.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    align-items: center;
+    grid-template-columns: auto auto;
+}
+
+.popUp_botao--umProdutoTres {
+    position: relative;
+    right: 80px;
+}
+
+.popUp_botao--doisProdutoTres {
+    position: relative;
+    left: 80px;
+}

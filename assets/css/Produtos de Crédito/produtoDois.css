@@ -36,7 +36,7 @@
 
 .popUp__saibaMais--bloco {
     align-items: center;
-    display: none;
+    display: grid;
     grid-template-columns: auto auto;
 
     grid-column: span 4;
@@ -88,7 +88,7 @@
 
 .popUp__tabelaRegressiva--bloco {
     align-items: center;
-    display: flex;
+    display: none;
     justify-content: space-around;
 
     grid-column: span 4;

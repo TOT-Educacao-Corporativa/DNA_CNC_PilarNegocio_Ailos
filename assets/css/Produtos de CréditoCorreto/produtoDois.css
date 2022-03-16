@@ -1,0 +1,59 @@
+.popUp__infos--produtoDois {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin: 1.75rem 2.5rem 1.75rem 1.75rem;
+}
+
+.popUp__infos--imagemProdutosDois {
+    height: 200px;
+    width: 200px;
+
+    cursor: pointer;
+}
+
+.popUp__infos--imagemUmProdutosDois {
+    position: relative;
+    top: 5px;
+}
+
+.popUp__infos--imagemDoisProdutosDois {
+    position: relative;
+    right: 170px;
+    top: 180px;
+
+    z-index: -1;
+}
+
+.popUp__infos--imagemTresProdutosDois {
+    bottom: 45px;
+    position: relative;
+    left: 210px;
+}
+
+.popUp__infos--descricoesProdutoDois {
+    font-size: 28px;
+    text-align: right;
+
+    width: 720px;
+}
+
+.popUp__infos--descricoesProdutoDois {
+    display: flex;
+}
+
+.popUp__infos--descricaoUmProdutoDois {
+    display: block;
+}
+
+.popUp__infos--descricaoDoisProdutoDois {
+    display: none;
+}
+
+.popUp__infos--descricaoTresProdutoDois {
+    display: none;
+}

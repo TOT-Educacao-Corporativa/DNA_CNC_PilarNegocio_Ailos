@@ -1,0 +1,297 @@
+.dna__cadeia li {
+    cursor: pointer;
+}
+
+.dna__cadeias--um {
+    background-image: url(../../../img/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 70px;
+    width: 150px;
+
+    transition: all 0.085s ease-in-out;
+
+    position: relative;
+    left: 15px;
+}
+
+.dna__cadeias--um:hover {
+    background-image: url(../../../img/01\ Hover.png);
+}
+
+.dna__cadeias--dois {
+    background-image: url(../../../img/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 65px;
+    width: 230px;
+
+    transition: all 0.085s ease-in-out;
+
+    position: relative;
+    left: 15px;
+}
+
+.dna__cadeias--dois:hover {
+    background-image: url(../../../img/02\ Hover.png);
+}
+
+.dna__cadeias--tres {
+    background-image: url(../../../img/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 60px;
+    width: 220px;
+
+    transition: all 0.085s ease-in-out;
+
+    position: relative;
+    left: 2px;
+}
+
+.dna__cadeias--tres:hover {
+    background-image: url(../../../img/03\ Hover.png);
+}
+
+.dna__cadeias--quatro {
+    background-image: url(../../../img/4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 45px;
+    width: 130px;
+
+    transition: all 0.085s ease-in-out;
+
+    position: relative;
+    right: 5px;
+}
+
+.dna__cadeias--quatro:hover {
+    background-image: url(../../../img/04\ Hover.png);
+}
+
+.dna__cadeias--cinco {
+    background-image: url(../../../img/5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 45px;
+    width: 130px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 3px;
+}
+
+.dna__cadeias--cinco:hover {
+    background-image: url(../../../img/05\ Hover.png);
+}
+
+.dna__cadeias--seis {
+    background-image: url(../../../img/6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 60px;
+    width: 220px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 3px;
+}
+
+.dna__cadeias--seis:hover {
+    background-image: url(../../../img/06\ Hover.png);
+}
+
+.dna__cadeias--sete {
+    background-image: url(../../../img/7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 70px;
+    width: 220px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 9px;
+}
+
+.dna__cadeias--sete:hover {
+    background-image: url(../../../img/07\ Hover.png);
+}
+
+.dna__cadeias--oito {
+    background-image: url(../../../img/8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 75px;
+    width: 150px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 19px;
+    bottom: 5px;
+}
+
+.dna__cadeias--oito:hover {
+    background-image: url(../../../img/08\ Hover.png);
+}
+
+.dna__cadeias--nove {
+    background-image: url(../../../img/9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 70px;
+    width: 150px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.dna__cadeias--nove:hover {
+    background-image: url(../../../img/09\ Hover.png);
+}
+
+.dna__cadeias--dez {
+    background-image: url(../../../img/10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 70px;
+    width: 230px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 17px;
+}
+
+.dna__cadeias--dez:hover {
+    background-image: url(../../../img/10\ Hover.png);
+}
+
+.dna__cadeias--onze {
+    background-image: url(../../../img/11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 60px;
+    width: 220px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 2px;
+}
+
+.dna__cadeias--onze:hover {
+    background-image: url(../../../img/11\ Hover.png);
+}
+
+.dna__cadeias--doze {
+    background-image: url(../../../img/12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 45px;
+    width: 130px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 5px;
+}
+
+.dna__cadeias--doze:hover {
+    background-image: url(../../../img/12\ Hover.png);
+}
+
+.dna__cadeias--treze {
+    background-image: url(../../../img/13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 45px;
+    width: 130px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    left: 4px;
+}
+
+.dna__cadeias--treze:hover {
+    background-image: url(../../../img/13\ Hover.png);
+}
+
+.dna__cadeias--quatorze {
+    background-image: url(../../../img/14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 60px;
+    width: 220px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 4px;
+}
+
+.dna__cadeias--quatorze:hover {
+    background-image: url(../../../img/14\ Hover.png);
+}
+
+.dna__cadeias--quinze {
+    background-image: url(../../../img/15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 65px;
+    width: 220px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 10px;
+}
+
+.dna__cadeias--quinze:hover {
+    background-image: url(../../../img/15\ Hover.png);
+}
+
+.dna__cadeias--dezesseis {
+    background-image: url(../../../img/16.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 75px;
+    width: 150px;
+
+    transition: all 0.085s ease-in-out;
+    position: relative;
+    right: 25px;
+}
+
+.dna__cadeias--dezesseis:hover {
+    background-image: url(../../../img/16\ Hover.png);
+}

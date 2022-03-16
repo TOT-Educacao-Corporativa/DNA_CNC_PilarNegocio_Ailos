@@ -46,3 +46,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    line-height: 2.2rem;
+}

@@ -1,0 +1,73 @@
+.check__um--produtoSeis {
+    display: none;
+
+    left: 172px;
+    position: absolute;
+    top: 430px;
+
+    z-index: 1;
+}
+
+.check__dois--produtoSeis{
+    display: none;
+
+    left: 865px;
+    position: absolute;
+    top: 430px;
+
+    z-index: 1;
+}
+
+.popUp__infos--produtoSeis {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin-top: 1rem;
+}
+
+.popUp__infos--descricaoUmProdutoSeis{
+    display: none;
+
+    font-size: 28px;
+    margin-top: 2rem;
+    text-align: justify;
+
+    width: 500px;
+}
+
+.popUp__infos--descricaoDoisProdutoSeis{
+    display: block;
+
+    font-size: 28px;
+    margin-top: 2rem;
+    text-align: justify;
+
+    width: 500px;
+}
+
+.popUp__infos--imagemProdutoSeis{
+    display: block;
+}
+
+.popUp__botoes--produtoSeis{
+    background-image: url(../../../img/fundoBotaoProdutoDois.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    align-items: center;
+    grid-template-columns: auto auto;
+}
+
+.popUp_botao--umProdutoSeis {
+    position: relative;
+    right: 80px;
+}
+
+.popUp_botao--doisProdutoSeis {
+    position: relative;
+    left: 80px;
+}

@@ -1,0 +1,65 @@
+.popUp__infos--produtoCinco {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin-top: 1rem;
+}
+.popUp__infos--imagensProdutoCinco {
+    align-items: center;
+    display: flex;
+}
+
+.popUp__infos--imagemProdutosCinco {
+    height: 400px;
+    width: 400px;
+
+    cursor: pointer;
+
+    margin: 1rem;
+}
+
+.popUp__infos--imagemUmProdutosCinco {
+    display: block;
+}
+
+.popUp__infos--descricaoUmProdutoCinco {
+    display:block;
+
+    font-size: 28px;
+    margin-top: 2rem;
+    text-align: justify;
+
+    width: 500px;
+
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+.popUp__atencao--produtoCinco {
+    align-items: center;
+    display: flex;
+
+    grid-column: span 4;
+
+    bottom: 45px;
+    left: 40px;
+    position: relative;
+}
+
+.popUp__atencao--escritaAtencao {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+
+    color: #086735;
+}
+
+.popUp__atencao--imagem {
+    height: 150px;
+    width: 150px;
+
+    margin-left: 1.25rem;
+}

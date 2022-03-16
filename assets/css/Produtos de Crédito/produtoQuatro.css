@@ -1,0 +1,144 @@
+.check__um--produtoQuatro {
+    display: none;
+
+    left: 172px;
+    position: absolute;
+    top: 430px;
+
+    z-index: 1;
+}
+
+.check__dois--produtoQuatro {
+    display: none;
+
+    left: 865px;
+    position: absolute;
+    top: 430px;
+
+    z-index: 1;
+}
+
+.popUp__infos--inicialProdutoQuatro {
+    align-items: center;
+    display: flex;
+    /* Flex */
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin: 1.75rem;
+}
+
+.popUp__infos--umProdutoQuatro {
+    display: inline-block;
+    /* inline-block */
+
+    font-size: 28px;
+    text-align: right;
+
+}
+
+.textoUm__produtoQuatro {
+    display: block;
+}
+
+.textoUm__produtoQuatro--botaoUm {
+    display: none;
+}
+
+.textoUm__produtoQuatro--botaoDois {
+    display: none;
+}
+
+.textoUm__produtoQuatro--botaoTres {
+    display: none;
+}
+
+.popUp__imagem--umProdutoQuatro {
+    margin: 0px 3rem 0px 0px;
+
+    height: 400px;
+    width: 400px;
+}
+
+.popUp__botoes--produtoQuatro {
+    left: 230px;
+    position: absolute;
+    top: 300px;
+
+    grid-template-columns: auto auto auto;
+
+    gap: 10px;
+}
+
+.popUp_botao--umProdutoQuatro {
+    bottom: 15px;
+    left: 15px;
+    position: relative;
+    
+    height: 50px;
+    width: 50px;
+
+    border: solid 4px #fff;
+}
+
+.popUp_botao--doisProdutoQuatro {
+    left: 10px;
+    position: relative;
+    top: 35px;
+
+    height: 60px;
+    width: 60px;
+
+    border: solid 4px #fff;
+}
+
+.popUp_botao--tresProdutoQuatro {
+    bottom: 25px;
+    position: relative;
+    right: 15px;
+    
+    height: 50px;
+    width: 50px;
+
+    border: solid 4px #fff;
+}
+
+.popUp__atencao--produtoQuatro {
+    align-items: center;
+    display: flex;
+
+    grid-column: span 4;
+
+    bottom: 15px;
+    left: 500px;
+    position: relative;
+}
+
+.popUp__atencao--escritaAtencao {
+    font-size: 26px;
+    font-weight: bold;
+
+    color: #086735;
+
+    padding-bottom: 22px;
+}
+
+.popUp__atencao--escritaInfo {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: right;
+
+    color: #086735;
+
+    width: 400px;
+
+}
+
+.popUp__atencao--imagem {
+    height: 100px;
+    width: 100px;
+
+    margin-left: 1.25rem;
+}

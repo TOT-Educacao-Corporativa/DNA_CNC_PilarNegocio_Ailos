@@ -1,0 +1,53 @@
+.popUp__infos--produtoTres {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+}
+
+.popUp__infos--imagensProdutoTres {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.popUp__infos--imagemProdutosTres {
+    height: 400px;
+    width: 400px;
+
+    cursor: pointer;
+}
+
+.popUp__infos--imagemUmProdutosTres{
+    display: block;
+}
+
+.popUp__infos--descricaoUmProdutoTres{
+    display:none;
+
+    font-size: 28px;
+    text-align: justify;
+
+    width: 500px;
+}
+
+.popUp__infos--descricoesProdutoTres {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.popUp__infos--imagemDoisProdutoTres {
+    display: block;
+}
+
+.popUp__infos--descricaoDoisProdutoTres{
+    display: none;
+
+    font-size: 28px;
+    text-align: justify;
+
+    width: 500px;
+}
