@@ -1,0 +1,75 @@
+.popUp__infos--produtoDoze {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+    
+}
+
+.popUp__infos--imagensProdutoDoze {
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+}
+
+.popUp__infos--imagemProdutosDoze {
+    height: 250px;
+    width: 250px;
+
+    cursor: pointer;
+
+    margin: 0.5rem;
+}
+
+.popUp__infos--imagemUmProdutosDoze {
+    display: block;
+}
+
+.popUp__infos--descricaoUmProdutoDoze {
+    display: block;
+
+    font-size: 20px;
+    margin-top: 2rem;
+    text-align: left;
+
+    width: 400px;
+
+}
+
+.popUp__infos--descricaoDoisProdutoDoze {
+    display: block;
+
+    font-size: 20px;
+    margin-top: 2rem;
+    text-align: right;
+
+    width: 400px;
+}
+
+.popUp__atencao--produtoDoze {
+    align-items: center;
+    display: flex;
+
+    grid-column: span 4;
+
+    top: 25px;
+    left: 270px;
+    position: relative;
+}
+
+.popUp__atencao--escritaProdutoDoze {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+
+    color: #086735;
+}
+
+.popUp__atencao--imagemProdutoDoze {
+    height: 150px;
+    width: 150px;
+
+    margin-left: 1.25rem;
+}

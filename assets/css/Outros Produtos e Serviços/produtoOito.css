@@ -1,0 +1,96 @@
+.check__um--produtoOito {
+    display: block;
+
+    left: 160px;
+    position: absolute;
+    top: 400px;
+
+    z-index: 1;
+}
+
+.check__dois--produtoOito {
+    display: none;
+
+    left: 515px;
+    position: absolute;
+    top: 400px;
+
+    z-index: 1;
+}
+
+.check__tres--produtoOito {
+    display: none;
+
+    left: 872px;
+    position: absolute;
+    top: 400px;
+
+    z-index: 1;
+}
+
+.popUp__infos--produtoOito {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin-bottom: 1rem;
+}
+
+.popUp__infos--imagensProdutoOito {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 2rem;
+}
+
+.popUp__infos--descricaoUmProdutoOito {
+    display: block;
+
+    font-size: 28px;
+    text-align: center;
+
+    width: 700px;
+}
+
+.popUp__infos--descricaoDoisProdutoOito {
+    display: none;
+
+    font-size: 28px;
+    text-align: center;
+
+    width: 700px;
+}
+
+.popUp__infos--descricaoTresProdutoOito{
+    display: none;
+
+    font-size: 28px;
+    text-align: center;
+
+    width: 700px;
+}
+
+.popUp__botoes--produtoOito {
+    background-image: url(../../../img/fundoBotaoProdutoDois.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.popUp_botao--umProdutoOito {
+    position: relative;
+}
+
+.popUp_botao--doisProdutoOito {
+    display: block;
+}
+
+.popUp_botao--tresProdutoOito {
+    position: relative;
+}

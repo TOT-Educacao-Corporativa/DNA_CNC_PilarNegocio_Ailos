@@ -31,7 +31,7 @@
 }
 
 .produtoQuatro {
-    display: grid;
+    display: none;
 
     left: 425px;
     position: relative;

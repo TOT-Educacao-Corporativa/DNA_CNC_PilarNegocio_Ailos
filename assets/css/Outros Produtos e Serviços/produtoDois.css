@@ -1,0 +1,81 @@
+.popUp__infos--produtoDois {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+}
+
+.popUp__infos--imagensProdutoDois {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.popUp__infos--imagemProdutosDois {
+    height: 400px;
+    width: 400px;
+
+    cursor: pointer;
+}
+
+.popUp__infos--imagemUmProdutosDois {
+    display: block;
+}
+
+.popUp__infos--descricaoUmProdutoDois {
+    display:none;
+
+    font-size: 28px;
+    margin-top: 2rem;
+    text-align: justify;
+
+    width: 500px;
+}
+
+.popUp__infos--descricoesProdutoDois {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.popUp__infos--imagemDoisProdutoDois {
+    display: block;
+}
+
+.popUp__infos--descricaoDoisProdutoDois {
+    display: none;
+
+    font-size: 28px;
+    margin-top: 2rem;
+    text-align: justify;
+
+    width: 500px;
+}
+
+.popUp__atencao--produtoDois {
+    align-items: center;
+    display: flex;
+
+    grid-column: span 4;
+
+    bottom: 10px;
+    left: 50px;
+    position: relative;
+}
+
+.popUp__atencao--escritaAtencaoProdutoDois {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+
+    color: #086735;
+}
+
+.popUp__atencao--imagemProdutoDois {
+    height: 150px;
+    width: 150px;
+
+    margin-left: 1.25rem;
+}

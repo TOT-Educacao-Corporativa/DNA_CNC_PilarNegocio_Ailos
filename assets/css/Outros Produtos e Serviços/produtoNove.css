@@ -1,0 +1,53 @@
+.popUp__infos--produtoNove {
+    grid-column: span 4;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.popUp__infos--blocoProdutoNove {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.popUp__infos--imagemUmProdutoNove {
+    height: 382px;
+    width: 324px;
+
+    bottom: 67px;
+    position: relative;
+}
+
+.popUp__infos--descricaoUmProdutoNove {
+    font-size: 18px;
+    text-align: center;
+
+    width: 370px;
+
+    position: relative;
+    top: 350px;
+    right: 400px;
+}
+
+.popUp__infos--imagemDoisProdutoNove {
+    height: 396px;
+    width: 317px;
+
+    bottom: 450px;
+    left:783px;
+    position: relative;
+
+}
+
+.popUp__infos--descricaoDoisProdutoNove {
+    font-size: 18px;
+    text-align: center  ;
+
+    width: 370px;
+
+    bottom: 33px;
+    left: 90px;
+    position: relative;
+}

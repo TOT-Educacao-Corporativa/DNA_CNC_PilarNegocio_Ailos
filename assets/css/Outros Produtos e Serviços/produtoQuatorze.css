@@ -1,0 +1,75 @@
+.popUp__infos--produtoQuatorze {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    grid-column: span 4;
+
+    margin-bottom: 100px;
+    
+}
+
+.popUp__infos--imagensProdutoQuatorze {
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+}
+
+.popUp__infos--imagemProdutosQuatorze {
+    height: 250px;
+    width: 250px;
+
+    cursor: pointer;
+
+    margin: 0.5rem;
+}
+
+.popUp__infos--imagemUmProdutosQuatorze {
+    display: block;
+}
+
+.popUp__infos--descricaoUmProdutoQuatorze {
+    display: block;
+
+    font-size: 20px;
+    text-align: left;
+
+    width: 400px;
+
+}
+
+.popUp__infos--descricaoDoisProdutoQuatorze {
+    display: block;
+
+    font-size: 20px;
+    text-align: right;
+
+    width: 400px;
+}
+
+.popUp__atencao--produtoQuatorze {
+    align-items: center;
+    display: flex;
+
+    grid-column: span 4;
+
+    top: 25px;
+    left: 270px;
+    position: relative;
+}
+
+.popUp__atencao--escritaProdutoQuatorze {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+
+    color: #086735;
+}
+
+.popUp__atencao--imagemProdutoQuatorze {
+    height: 150px;
+    width: 150px;
+
+    margin-left: 1.25rem;
+}

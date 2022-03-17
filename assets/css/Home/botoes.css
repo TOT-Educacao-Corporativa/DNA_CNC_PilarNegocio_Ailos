@@ -28,7 +28,7 @@
     width: 125px;
 }
 
-.botoes__botao:hover {
+.botoes__botao--um:hover {
     background-color: #007C41;
     color: #fff;
 }
@@ -41,11 +41,15 @@
 .botoes__botao--dois {
     height: 105px;
     width: 105px;
-    opacity: 0.5;
+    background-color: #003a1e;
+    color: #fff;
+    cursor: default;
 }
 
 .botoes__botao--tres {
     position: relative;
     left: 8px;
-    opacity: 0.5;
+    background-color: #003a1e;
+    color: #fff;
+    cursor: default;
 }

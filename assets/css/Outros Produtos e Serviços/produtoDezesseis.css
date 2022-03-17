@@ -1,0 +1,50 @@
+.popUp__infos--produtoDezesseis {
+    align-items: center;
+    
+    grid-column: span 4;
+
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4 , auto);
+    grid-template-rows: repeat(2 , auto);
+
+    margin: 1.75rem;
+}
+
+.popUp__infos--descricaoUmProdutoDezesseis {
+    grid-column: span 1;
+    grid-row: span 2;
+
+    font-size: 16px;
+    text-align: left;
+
+
+}
+
+.popUp__infos--imagemUmProdutoDezesseis {
+    grid-column: span 1;
+    grid-row: span 2;
+
+    height: 350px;
+
+}
+
+.popUp__infos--descricaoDoisProdutoDezesseis {
+    grid-column: span 1;
+    grid-row:  span 1;
+}
+
+.popUp__infos--imagemDoisProdutoDezesseis {
+    height: 150px;
+    width: 150px;
+}
+
+.popUp__infos--descricaoTresProdutoDezesseis {
+    grid-column: span 1;
+    grid-row:  span 1;
+}
+
+.popUp__infos--imagemTresProdutoDezesseis {
+    height: 150px;
+    width: 150px;
+}

@@ -49,26 +49,28 @@
     width: 80px;
 }
 
-.botoes__botao:hover {
-    background-color: #007C41;
-    color: #fff;
-}
-
 .botoes__botao--um {
     position: relative;
     right: 8px;
     
+    background-color: #003a1e;
+    color: #fff;
 }
 
 .botoes__botao--dois {
     height: 65px;
     width: 65px;
-    border: solid 5px #007C41;
+
+    background-color: #003a1e;
+    color: #fff;
 }
 
 .botoes__botao--tres {
     position: relative;
     left: 8px;
+    
+    background-color: #003a1e;
+    color: #fff;
 }
 
 .interaja {

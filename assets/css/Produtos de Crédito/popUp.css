@@ -102,3 +102,9 @@
     height: 70px;
     width: 70px;
 }
+
+.popUp__botao:hover {
+    background-color: #fff;
+    border: solid 8px #086735;
+    color: #fff;
+}
