@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "icones";
+    src: url(../../../font/icones.ttf);
+}
+
+.barraNav__geral {
+    align-items: center;
+    display: flex;
+
+    left: 1680px;
+    position: absolute;
+    top: 2500px;
+
+    margin-right: 4rem;
+}
+
+.nav__anterior {
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+
+    background-color: #086735;
+    border: none;
+    color: #fff;
+    
+    text-decoration: none;
+
+    cursor: pointer;
+
+    position: relative;
+    right: 80px;
+
+    background-image: url(../../img/iconeAnterior.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav__seguinte {
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+
+    background-color: #086735;
+    border: none;
+    color: #fff;
+
+    text-decoration: none;
+    
+    cursor: pointer;
+
+    background-image: url(../../img/iconeSeguinte.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

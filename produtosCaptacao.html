@@ -8,6 +8,7 @@
     <title>DNA | Produtos de Captação</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/Produtos de Crédito/normalize.css">
+    <link rel="stylesheet" href="assets/css/navBar.css">
     <link rel="stylesheet" href="assets/css/Produtos de Crédito/cabecalho.css">
     <link rel="stylesheet" href="assets/css/Produtos de Crédito/popUp.css">
     <link rel="stylesheet" href="assets/css/Produtos de Crédito/dna.css">
@@ -53,10 +54,10 @@
         <!-- Estrutura cadeias DNA (Botoes) -->
         <div class="dna__cadeia">
             <ul class="dna__cadeias dna__cadeias--secaoUm">
-                <li class="dna__cadeias--itens dna__cadeias--um"></li>
-                <li class="dna__cadeias--itens dna__cadeias--dois"></li>
-                <li class="dna__cadeias--itens dna__cadeias--tres"></li>
-                <li class="dna__cadeias--itens dna__cadeias--quatro"></li>
+                <li class="dna__cadeias--itens dna__cadeias--um" onclick="showProdutoUm ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--dois" onclick="shoProdutoDois ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--tres" onclick="shoProdutoTres ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--quatro" onclick="shoProdutoQuatro ()"></li>
             </ul>
             <ul class="dna__cadeias dna__cadeias--secaoDois">
                 <li class="dna__cadeias--itens dna__cadeias--cinco"></li>
@@ -78,9 +79,9 @@
             </ul>
         </div>
         <!-- Produto Um -->
-        <article class="popUp produtoUm">
+        <article class="popUp popUpUm produtoUm" id="produtoUm">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpUm()">X</button>
             <div class="check check__um"></div>
             <div class="check check__dois"></div>
             <div class="check check__tres"></div>
@@ -98,9 +99,9 @@
                 <p>Anualmente as cotas podem ser remuneradas através do pagamento de Juros ao Capital, e de acordo com
                     os resultados da Cooperativa.</p>
             </div>
-            <div class="popUp__botoes">
-                <button class="popUp__botao popUp_botao--um"></button>
-                <button class="popUp__botao popUp_botao--dois"></button>
+            <div class="popUp__botoes popUp__botoes--ProdutoUm">
+                <button class="popUp__botao popUp_botao--um" onclick="mostrarInfoUm()"></button>
+                <button class="popUp__botao popUp_botao--dois" onclick="mostrarInfoDois()"></button>
                 <button class="popUp__botao popUp_botao--tres"></button>
             </div>
 
@@ -146,9 +147,9 @@
 
         </article>
         <!-- Produto Dois -->
-        <article class="popUp produtoDois">
+        <article class="popUp popUpDois produtoDois">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpDois()">X</button>
             <h2 class="popUp__titulo">RDC Pré-fixado e RDC Pós-fixado</h2>
             <div class="check check__um--produtoDois"></div>
             <div class="check check__dois--produtoDois"></div>
@@ -206,9 +207,9 @@
 
         </article>
         <!-- Produto Tres -->
-        <article class="popUp produtoTres">
+        <article class="popUp popUpTres produtoTres">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpTres()">X</button>
             <h2 class="popUp__titulo">Aplicação Programada</h2>
             <div class="check check__um--produtoTres"></div>
             <div class="check check__dois--produtoTres"></div>
@@ -236,9 +237,9 @@
 
         </article>
         <!-- Produto Quatro -->
-        <article class="popUp produtoQuatro">
+        <article class="popUp popUpQuatro produtoQuatro">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpQuatro()">X</button>
             <h2 class="popUp__titulo">Poupança</h2>
             <div class="check check__um--produtoQuatro"></div>
             <div class="check check__dois--produtoQuatro"></div>
@@ -274,6 +275,11 @@
         </article>
         
     </main>
+    <footer class="barraNav__geral">
+        <a href="index.html"><button class="nav__anterior"></button></a>
+        <a href="produtosCredito.html"><button class="nav__seguinte"></button></a>
+    </footer>
+    <script src="assets/js/produtosCaptacao.js"></script>
 </body>
 
 </html>

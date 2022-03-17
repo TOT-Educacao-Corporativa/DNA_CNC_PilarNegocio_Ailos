@@ -24,7 +24,7 @@
     text-align: center;
     width: 70px;
 
-    position: relative;
+    position: absolute;
     left: 1025px;
 
     cursor: pointer;
@@ -43,32 +43,32 @@
 .check__um {
     display: none;
     /* Blcok */
-    position: relative;
-    right: 112px;
-    top: 300px;
+    position: absolute;
+    left: 162px;
+    top: 365px;
 }
 
 .check__dois {
     display: none;
     /* Block */
-    position: relative;
-    right: 32px;
-    top: 300px;
+    position: absolute;
+    left: 517px;
+    top: 365px;
 }
 
 .check__tres {
     display: none;
     /* Block */
-    position: relative;
-    left: 45px;
-    top: 300px;
+    position: absolute;
+    left: 872px;
+    top: 365px;
 }
 
 .popUp__titulo {
     color: #086735;
     font-size: 36px;
     font-weight: 600;
-    grid-column: span 2;
+    grid-column: span 4;
     padding-top: 1.75rem;
     text-align: center;
 }
