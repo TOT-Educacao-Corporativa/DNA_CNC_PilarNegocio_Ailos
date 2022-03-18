@@ -6,6 +6,8 @@
     top: 430px;
 
     z-index: 1;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .check__dois--produtoQuatro {
@@ -16,6 +18,8 @@
     top: 430px;
 
     z-index: 1;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__infos--inicialProdutoQuatro {
@@ -28,6 +32,8 @@
     grid-column: span 4;
 
     margin: 1.75rem;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__infos--umProdutoQuatro {
@@ -37,22 +43,32 @@
     font-size: 28px;
     text-align: right;
 
+    transition: all 0.085s ease-in-out;
+
 }
 
 .textoUm__produtoQuatro {
     display: block;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .textoUm__produtoQuatro--botaoUm {
     display: none;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .textoUm__produtoQuatro--botaoDois {
     display: none;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .textoUm__produtoQuatro--botaoTres {
     display: none;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__imagem--umProdutoQuatro {
@@ -60,6 +76,8 @@
 
     height: 400px;
     width: 400px;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__botoes--produtoQuatro {
@@ -70,6 +88,8 @@
     grid-template-columns: auto auto auto;
 
     gap: 10px;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp_botao--umProdutoQuatro {
@@ -81,6 +101,8 @@
     width: 50px;
 
     border: solid 4px #fff;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp_botao--doisProdutoQuatro {
@@ -92,6 +114,8 @@
     width: 60px;
 
     border: solid 4px #fff;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp_botao--tresProdutoQuatro {
@@ -103,6 +127,8 @@
     width: 50px;
 
     border: solid 4px #fff;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__atencao--produtoQuatro {
@@ -114,6 +140,8 @@
     bottom: 15px;
     left: 500px;
     position: relative;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__atencao--escritaAtencao {
@@ -123,6 +151,8 @@
     color: #086735;
 
     padding-bottom: 22px;
+
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__atencao--escritaInfo {
@@ -134,6 +164,8 @@
 
     width: 400px;
 
+    transition: all 0.085s ease-in-out;
+
 }
 
 .popUp__atencao--imagem {
@@ -141,4 +173,6 @@
     width: 100px;
 
     margin-left: 1.25rem;
+
+    transition: all 0.085s ease-in-out;
 }

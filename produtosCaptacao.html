@@ -102,7 +102,7 @@
             <div class="popUp__botoes popUp__botoes--ProdutoUm">
                 <button class="popUp__botao popUp_botao--um" onclick="mostrarInfoUm()"></button>
                 <button class="popUp__botao popUp_botao--dois" onclick="mostrarInfoDois()"></button>
-                <button class="popUp__botao popUp_botao--tres"></button>
+                <button class="popUp__botao popUp_botao--tres" onclick="mostrarInfoTres()"></button>
             </div>
 
             <article class="popUp__interacoes">
@@ -163,14 +163,18 @@
                     tendo taxa de administração. Contribui com a sustentabilidade da Cooperativa. </p>
             </div>
             <div class="popUp__botoes popUp__botoes--produtoDois">
-                <button class="popUp__botao popUp_botao--umProdutoDois"></button>
-                <button class="popUp__botao popUp_botao--doisProdutoDois"></button>
+                <button class="popUp__botao popUp_botao--umProdutoDois" onclick="mostrarInfoUmProdutoDois()"></button>
+                <button class="popUp__botao popUp_botao--doisProdutoDois"
+                    onclick="mostrarInfoDoisProdutoDois()"></button>
             </div>
             <div class="popUp__saibaMais--bloco">
                 <ul class="popUp__saibaMais--blocoImagens">
-                    <li class="popUp__saibaMais--blocoImagem">Recibo de Depósito Cooperativo Pré-Fixado</li>
-                    <li class="popUp__saibaMais--blocoImagem">Recibo de Depósito Cooperativo Pós-Fixado </li>
-                    <li class="popUp__saibaMais--blocoImagem">Recibo de Depósito Cooperativo IPCA+ </li>
+                    <li class="popUp__saibaMais--blocoImagem" onclick="mostrarSaibaMaisInfosUmProdutoDois()">Recibo de
+                        Depósito Cooperativo Pré-Fixado</li>
+                    <li class="popUp__saibaMais--blocoImagem" onclick="mostrarSaibaMaisInfosDoisProdutoDois()">Recibo de
+                        Depósito Cooperativo Pós-Fixado </li>
+                    <li class="popUp__saibaMais--blocoImagem" onclick="mostrarSaibaMaisInfosTresProdutoDois()">Recibo de
+                        Depósito Cooperativo IPCA+ </li>
                 </ul>
                 <p class="popUp__saibaMais--blocoInfos blocoInfos--imagemUm">São investimentos com rentabilidade
                     indicada em um momento prévio ao vencimento, são definidos no momento da aplicação. Base do CDI do
@@ -191,16 +195,17 @@
             </div>
             <div class="popUp__saibaMaisTabelaRegressiva">
                 <div class="popUp__saibaMais">
-                    <img src="img/saibaMais.png" alt="Botao Saiba Mais" class="popUp__saibaMais--imagemUm">
+                    <img src="img/saibaMais.png" alt="Botao Saiba Mais" class="popUp__saibaMais--imagemUm"
+                        onclick="mostrarPopUpSaibaMaisProdutoDois()">
                     <img src="img/saibaMaisVerde.png" alt="Botao Saiba Mais Clicado"
-                        class="popUp__saibaMais--imagemDois">
+                        class="popUp__saibaMais--imagemDois" onclick="mostrarPopUpSaibaMaisProdutoDois()">
                     <h3 class="popUp__saibaMais--titulo">Saiba Mais!</h3>
                 </div>
                 <div class="popUp__tabelaRegressiva">
                     <img src="img/tabelaRegressivaBotao.png" alt="Botao Tabela Regressiva"
-                        class="popUp__tabelaRegressiva--imagemUm">
+                        class="popUp__tabelaRegressiva--imagemUm" onclick="mostrarPopUpTabelaRegressivaProdutoDois()">
                     <img src="img/tabelaRegressivaBotaoVerde.png" alt="Botao Tabela Regressiva Clicado"
-                        class="popUp__tabelaRegressiva--imagemDois">
+                        class="popUp__tabelaRegressiva--imagemDois" onclick="mostrarPopUpTabelaRegressivaProdutoDois()">
                     <h3 class="popUp__tabelaRegressiva--titulo">Tabela Regressiva</h3>
                 </div>
             </div>
@@ -231,8 +236,8 @@
                 <p>A tributação é feita conforme tabela do Imposto de Renda. </p>
             </div>
             <div class="popUp__botoes popUp__botoes--produtoTres">
-                <button class="popUp__botao popUp_botao--umProdutoTres"></button>
-                <button class="popUp__botao popUp_botao--doisProdutoTres"></button>
+                <button class="popUp__botao popUp_botao--umProdutoTres" onclick="mostrarInfoUmProdutoTres()"></button>
+                <button class="popUp__botao popUp_botao--doisProdutoTres" onclick="mostrarInfoDoisProdutoTres()"></button>
             </div>
 
         </article>
@@ -241,8 +246,6 @@
 
             <button class="popUp__fechar" onclick="fecharPopUpQuatro()">X</button>
             <h2 class="popUp__titulo">Poupança</h2>
-            <div class="check check__um--produtoQuatro"></div>
-            <div class="check check__dois--produtoQuatro"></div>
             <div class="popUp__infos--inicialProdutoQuatro">
                 <div class="popUp__infos--umProdutoQuatro">
                     <p class="textoUm__produtoQuatro">É uma opção de investimento que permite aos cooperados a
@@ -261,9 +264,9 @@
                     class="popUp__imagem--umProdutoQuatro">
             </div>
             <div class="popUp__botoes popUp__botoes--produtoQuatro">
-                <button class="popUp__botao popUp_botao--umProdutoQuatro"></button>
-                <button class="popUp__botao popUp_botao--doisProdutoQuatro"></button>
-                <button class="popUp__botao popUp_botao--tresProdutoQuatro"></button>
+                <button class="popUp__botao popUp_botao--umProdutoQuatro" onclick="mostrarInfosUmProdutoQuatro()"></button>
+                <button class="popUp__botao popUp_botao--doisProdutoQuatro" onclick="mostrarInfosDoisProdutoQuatro()"></button>
+                <button class="popUp__botao popUp_botao--tresProdutoQuatro" onclick="mostrarInfosTresProdutoQuatro()"></button>
             </div>
             <div class="popUp__atencao--produtoQuatro">
                 <h2 class="popUp__atencao--escritaAtencao">Atenção</h2>
@@ -273,7 +276,7 @@
             </div>
 
         </article>
-        
+
     </main>
     <footer class="barraNav__geral">
         <a href="index.html"><button class="nav__anterior"></button></a>

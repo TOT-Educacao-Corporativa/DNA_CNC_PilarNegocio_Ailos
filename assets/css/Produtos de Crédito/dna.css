@@ -1,11 +1,13 @@
 .secaoMain {
     display: block;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna {
     left: 670px;
     position: absolute;
     top: 250px;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__interaja {
@@ -20,15 +22,18 @@
     top: 322px;
 
     z-index: 1;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__interaja--escrita {
     font-size: 18px;
     text-align: center;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__interaja--seta {
     z-index: 0;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__imagens {
@@ -36,18 +41,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__imagem--tracos {
     transform: rotate(3deg);
     z-index: 0;
     
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__imagem--base {
     position: relative;
     bottom: 70px;
     z-index: -1;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__cadeia {
@@ -57,6 +65,7 @@
     position: absolute;
 
     z-index: 1;
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__cadeias {
@@ -69,6 +78,7 @@
     position: absolute;
     top: 388px;
     
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__cadeias--secaoUm {
@@ -77,6 +87,7 @@
     position: relative;
 
     transform: rotate(3deg);
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__cadeias--secaoDois {
@@ -87,6 +98,7 @@
     top: 390px;
 
     transform: rotate(3deg);
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__cadeias--secaoTres {
@@ -97,6 +109,7 @@
     top: 390px;
 
     transform: rotate(3deg);
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__cadeias--secaoQuatro {
@@ -106,9 +119,11 @@
     top: 391px;
 
     transform: rotate(3deg);
+    transition: all 0.25s ease-in-out;
 }
 
 .dna__cadeias--itens {
     margin: 1.1rem;
     z-index: 0;
+    transition: all 0.25s ease-in-out;
 }

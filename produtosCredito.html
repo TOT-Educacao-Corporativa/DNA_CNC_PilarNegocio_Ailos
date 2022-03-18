@@ -58,20 +58,20 @@
         <!-- Estrutura cadeias DNA (Botoes) -->
         <div class="dna__cadeia">
             <ul class="dna__cadeias dna__cadeias--secaoUm">
-                <li class="dna__cadeias--itens dna__cadeias--um"></li>
-                <li class="dna__cadeias--itens dna__cadeias--dois"></li>
-                <li class="dna__cadeias--itens dna__cadeias--tres"></li>
-                <li class="dna__cadeias--itens dna__cadeias--quatro"></li>
+                <li class="dna__cadeias--itens dna__cadeias--um" onclick="showProdutoUm ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--dois" onclick="showProdutoDois ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--tres" onclick="showProdutoTres ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--quatro" onclick="showProdutoQuatro ()"></li>
             </ul>
             <ul class="dna__cadeias dna__cadeias--secaoDois">
-                <li class="dna__cadeias--itens dna__cadeias--cinco"></li>
-                <li class="dna__cadeias--itens dna__cadeias--seis"></li>
-                <li class="dna__cadeias--itens dna__cadeias--sete"></li>
-                <li class="dna__cadeias--itens dna__cadeias--oito"></li>
+                <li class="dna__cadeias--itens dna__cadeias--cinco" onclick="showProdutoCinco ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--seis" onclick="showProdutoSeis ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--sete" onclick="showProdutoSete ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--oito" onclick="showProdutoOito ()"></li>
             </ul>
             <ul class="dna__cadeias dna__cadeias--secaoTres">
-                <li class="dna__cadeias--itens dna__cadeias--nove"></li>
-                <li class="dna__cadeias--itens dna__cadeias--dez"></li>
+                <li class="dna__cadeias--itens dna__cadeias--nove" onclick="showProdutoNove ()"></li>
+                <li class="dna__cadeias--itens dna__cadeias--dez " onclick="showProdutoDez ()"></li>
                 <li class="dna__cadeias--itens dna__cadeias--onze"></li>
                 <li class="dna__cadeias--itens dna__cadeias--doze"></li>
             </ul>
@@ -83,9 +83,9 @@
             </ul>
         </div>
         <!-- Produto Um -->
-        <article class="popUp produtoUm">
+        <article class="popUp produtoUm popUpUm">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpUm()">X</button>
             <h2 class="popUp__titulo">Empréstimo</h2>
             <div class="check check__um--produtoUm"></div>
             <div class="popUp__infos--inicialProdutoUm">
@@ -103,23 +103,23 @@
             </div>
             <div class="popUp__infos popUp__infos--botaoUmProdutoUm"></div>
             <div class="popUp__botoes popUp__botoes--produtoUm">
-                <button class="popUp__botao popUp_botao--umProdutoUm"></button>
+                <button class="popUp__botao popUp_botao--umProdutoUm" onclick="mostrarInfoDois()"></button>
             </div>
 
         </article>
         <!-- Produto Dois -->
-        <article class="popUp produtoDois">
+        <article class="popUp produtoDois popUpDois">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpDois()">X</button>
             <h2 class="popUp__titulo">Financiamento</h2>
             <div class="popUp__infos--produtoDois">
                 <div class="popUp__infos--imagensProdutoDois">
                     <img src="img/iconeMoveis.png" alt="Icone moveis dentro de casa botão"
-                        class="popUp__infos--imagemProdutosDois popUp__infos--imagemUmProdutosDois">
+                        class="popUp__infos--imagemProdutosDois popUp__infos--imagemUmProdutosDois" onclick="mostrarInfosUmProdutoDois()">
                     <img src="img/iconeCarro.png" alt="Icone veiculo botão"
-                        class="popUp__infos--imagemProdutosDois popUp__infos--imagemDoisProdutosDois">
+                        class="popUp__infos--imagemProdutosDois popUp__infos--imagemDoisProdutosDois" onclick="mostrarInfosDoisProdutoDois()">
                     <img src="img/iconeCasa.png" alt="Icone de uma casa botão"
-                        class="popUp__infos--imagemProdutosDois popUp__infos--imagemTresProdutosDois">
+                        class="popUp__infos--imagemProdutosDois popUp__infos--imagemTresProdutosDois" onclick="mostrarInfosTresProdutoDois()">
                 </div>
                 <div class="popUp__infos--descricoesProdutoDois">
                     <p class="popUp__infos--descricaoUmProdutoDois">É uma solução de crédito firmado entre o Cooperado e
@@ -139,9 +139,9 @@
 
         </article>
         <!-- Produto Tres -->
-        <article class="popUp produtoTres">
+        <article class="popUp produtoTres popUpTres">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpTres()">X</button>
             <h2 class="popUp__titulo">Microcrédito</h2>
             <div class="popUp__infos--produtoTres">
                 <div class="popUp__infos--imagensProdutoTres">
@@ -159,12 +159,12 @@
                         4000. (1) Este recurso é captado junto a instituições de crédito parceiras. </p>
                 </div>
             </div>
-
+            
         </article>
         <!-- Produto Quatro -->
-        <article class="popUp produtoQuatro">
+        <article class="popUp produtoQuatro popUpQuatro">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpQuatro()">X</button>
             <h2 class="popUp__titulo">Repasse de Recursos (BRDE/BNDES)</h2>
             <div class="popUp__infos--produtoQuatro">
                 <div class="popUp__infos--imagensProdutoQuatro">
@@ -187,9 +187,9 @@
 
         </article>
         <!-- Produto Cinco -->
-        <article class="popUp produtoCinco">
+        <article class="popUp produtoCinco popUpCinco">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpCinco()">X</button>
             <h2 class="popUp__titulo">Pré Aprovado</h2>
             <div class="popUp__infos--produtoCinco">
                 <div class="popUp__infos--imagensProdutoCinco">
@@ -208,9 +208,9 @@
 
         </article>
         <!-- Produto Seis -->
-        <article class="popUp produtoSeis">
+        <article class="popUp produtoSeis popUpSeis">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpSeis()">X</button>
             <h2 class="popUp__titulo">Crédito Direto ao Cooperado (CDC)</h2>
             <div class="check check__um--produtoSeis"></div>
             <div class="check check__dois--produtoSeis"></div>
@@ -229,9 +229,9 @@
 
         </article>
         <!-- Produto Sete -->
-        <article class="popUp produtoSete">
+        <article class="popUp produtoSete popUpSete">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpSete()">X</button>
             <h2 class="popUp__titulo">Antecipação de Recebíveis</h2>
             <div class="check check__um--produtoSete"></div>
             <div class="check check__dois--produtoSete"></div>
@@ -251,9 +251,9 @@
 
         </article>
         <!-- Produto Oito -->
-        <article class="popUp produtoOito">
+        <article class="popUp produtoOito popUpOito">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpOito()">X</button>
             <h2 class="popUp__titulo">Limite de Crédito</h2>
             <div class="popUp__infos--produtoOito">
                 <div class="popUp__infos--imagensProdutoOito">
@@ -272,9 +272,9 @@
 
         </article>
         <!-- Produto Nove -->
-        <article class="popUp produtoNove">
+        <article class="popUp produtoNove popUpNove">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpNove()">X</button>
             <h2 class="popUp__titulo">Cartões de Crédito Ailos (Mastercard e Cabal)</h2>
             <div class="popUp__infos--produtoNove">
                 <div class="popUp__infos--imagensProdutoNove">
@@ -292,9 +292,9 @@
 
         </article>
         <!-- Produto Dez -->
-        <article class="popUp produtoDez">
+        <article class="popUp produtoDez popUpDez">
 
-            <button class="popUp__fechar">X</button>
+            <button class="popUp__fechar" onclick="fecharPopUpDez()">X</button>
             <h2 class="popUp__titulo">Carta de Fiança </h2>
             <div class="popUp__infos--produtoDez">
                 <div class="popUp__infos--imagensProdutoDez">
@@ -315,6 +315,7 @@
         <a href="produtosCaptacao.html"><button class="nav__anterior"></button></a>
         <a href="outrosProdutos.html"><button class="nav__seguinte"></button></a>
     </footer>
+    <script src="/assets/js/produtosCredito.js"></script>
 </body>
 
 </html>

@@ -3,9 +3,10 @@
 
     left: 172px;
     position: absolute;
-    top: 430px;
+    top: 410px;
 
     z-index: 1;
+    transition: all 0.085s ease-in-out;
 }
 
 .check__dois--produtoTres {
@@ -13,9 +14,10 @@
 
     left: 865px;
     position: absolute;
-    top: 430px;
+    top: 410px;
 
     z-index: 1;
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__infos--inicial {
@@ -26,6 +28,7 @@
     grid-column: span 4;
 
     margin: 1.75rem;
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__infos--umProdutoTres {
@@ -35,18 +38,22 @@
     text-align: justify;
 
     margin-right: 2rem;
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__imagem--umProdutoTres {
     display: block;
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__infos--botaoUmProdutoTres {
     display: none; /* inline-block */
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__infos--botaoDoisProdutoTres {
     display: none;
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp__botoes--produtoTres {
@@ -56,14 +63,17 @@
 
     align-items: center;
     grid-template-columns: auto auto;
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp_botao--umProdutoTres {
     position: relative;
     right: 80px;
+    transition: all 0.085s ease-in-out;
 }
 
 .popUp_botao--doisProdutoTres {
     position: relative;
     left: 80px;
+    transition: all 0.085s ease-in-out;
 }

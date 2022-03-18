@@ -10,6 +10,7 @@
     left: 500px;
 
     z-index: -1;
+    transition: all 0.25s ease-in-out;
 }
 
 .navegadorPaginas {
@@ -17,6 +18,7 @@
     width: 900px;
 
     margin: 1rem;
+    transition: all 0.25s ease-in-out;
 }
 
 .botoes {
@@ -28,10 +30,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+
+    transition: all 0.25s ease-in-out;
 }
 
 .botoes a {
     text-decoration: none;
+    transition: all 0.25s ease-in-out;
 }
 
 .botoes__botao {
@@ -47,6 +52,7 @@
     justify-content: center;
     transition: all 0.2s ease-in-out;
     width: 80px;
+    transition: all 0.25s ease-in-out;
 }
 
 .botoes__botao--um {
@@ -54,11 +60,13 @@
     right: 8px;
     border: solid 5px #007C41;
     cursor: pointer;
+    transition: all 0.25s ease-in-out;
 }
 
 .botoes__botao--um:hover {
     background-color: #007C41;
     color: #fff;
+    transition: all 0.25s ease-in-out;
 }
 
 .botoes__botao--dois {
@@ -67,6 +75,7 @@
     background-color: #003a1e;
     color: #fff;
     cursor: default;
+    transition: all 0.25s ease-in-out;
 }
 
 .botoes__botao--tres {
@@ -75,9 +84,11 @@
     background-color: #003a1e;
     color: #fff;
     cursor: default;
+    transition: all 0.25s ease-in-out;
 }
 
 .interaja {
     font-size: 36px;
     font-weight: bold;
+    transition: all 0.25s ease-in-out;
 }
